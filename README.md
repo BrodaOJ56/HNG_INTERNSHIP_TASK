@@ -19,16 +19,20 @@ Make a GET request to the https://hngtask-po2z.onrender.com/info/get_info/  endp
 slack_name: Your Slack name
 track: Your chosen track
 
-Example : ``` https://hngtask-po2z.onrender.com/info/get_info/?slack_name=BrodaOJ&track=Backend ```
+Example : https://hngtask-po2z.onrender.com/info/get_info/?slack_name=BrodaOJ&track=Backend
 Receive a JSON response containing the requested information, including current day and time, GitHub URLs, and more.
 
 ## How to run on Local:
 
 1. Clone the repository:
 
-  ```git clone https://github.com/BrodaOJ56/HNG_INTERNSHIP_TASK.git```
+  ```
+  git clone https://github.com/BrodaOJ56/HNG_INTERNSHIP_TASK.git
+  ```
 
-  ```cd HNG_INTERNSHIP_TASK```
+  ```
+  cd HNG_INTERNSHIP_TASK
+  ```
 
 2. Create and activate a virtual environment (optional but recommended):
  ```
@@ -45,9 +49,11 @@ pip install -r requirements.txt
 ```
 4. Run the Django development server:
 
-```python manage.py runserver ```
+ ```
+ python manage.py runserver
+ ```
 
-Access the API at ```http://127.0.0.1:8000/info/get_info/``` with appropriate query parameters.
+Access the API at http://127.0.0.1:8000/info/get_info/ with appropriate query parameters.
 
 ## Contributing:
 
