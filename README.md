@@ -14,12 +14,12 @@ Delivers responses in JSON format, making it easy to integrate with other system
 
 ## How to Use:
 
-Make a GET request to the https://hngtask-po2z.onrender.com/api/  endpoint with the following query parameters:
+Make a GET request to the https://hngtask-po2z.onrender.com/api  endpoint with the following query parameters:
 
 slack_name: Your Slack name
 track: Your chosen track
 
-Example : https://hngtask-po2z.onrender.com/api/?slack_name=BrodaOJ&track=Backend
+Example : https://hngtask-po2z.onrender.com/api?slack_name=BrodaOJ&track=Backend
 Receive a JSON response containing the requested information, including current day and time, GitHub URLs, and more.
 
 ## How to run on Local:
@@ -53,7 +53,7 @@ pip install -r requirements.txt
  python manage.py runserver
  ```
 
-Access the API at http://127.0.0.1:8000/api/ with appropriate query parameters.
+Access the API at http://127.0.0.1:8000/api with appropriate query parameters.
 
 ## Contributing:
 
