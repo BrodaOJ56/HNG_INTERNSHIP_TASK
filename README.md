@@ -14,7 +14,7 @@ Delivers responses in JSON format, making it easy to integrate with other system
 
 ## How to Use:
 
-Make a GET request to the ``` https://hngtask-po2z.onrender.com/info/get_info/ ``` endpoint with the following query parameters:
+Make a GET request to the https://hngtask-po2z.onrender.com/info/get_info/  endpoint with the following query parameters:
 
 slack_name: Your Slack name
 track: Your chosen track
