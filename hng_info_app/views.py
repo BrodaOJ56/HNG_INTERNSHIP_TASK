@@ -10,7 +10,7 @@ def get_info(request):
     # Get current day of the week and UTC time
     utc_now = datetime.now(pytz.UTC)
     current_day_of_week = utc_now.strftime("%A")
-    current_utc_time = utc_now.strftime("%Y-%m-%d %H:%M:%S UTC")
+    current_utc_time = utc_now.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # GitHub URLs
     github_file_url = "https://github.com/BrodaOJ56/HNG_INTERNSHIP_TASK/blob/master/hng_info_project"
