@@ -13,8 +13,8 @@ def get_info(request):
     current_utc_time = utc_now.strftime("%Y-%m-%d %H:%M:%S UTC")
 
     # GitHub URLs
-    github_file_url = "https://github.com/your_username/your_repo/blob/main/your_file.py"
-    github_source_code_url = "https://github.com/your_username/your_repo"
+    github_file_url = "https://github.com/BrodaOJ56/HNG_INTERNSHIP_TASK/blob/master/hng_info_project"
+    github_source_code_url = "https://github.com/BrodaOJ56/HNG_INTERNSHIP_TASK"
 
     # Response data
     response_data = {
