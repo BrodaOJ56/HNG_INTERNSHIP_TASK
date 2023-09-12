@@ -20,7 +20,7 @@ def get_info(request):
     current_utc_time = utc_now.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # GitHub URLs
-    github_file_url = "https://github.com/BrodaOJ56/HNG_INTERNSHIP_TASK/blob/master/hng_info_app"
+    github_file_url = "https://github.com/BrodaOJ56/HNG_INTERNSHIP_TASK/blob/master/hng_info_app/views.py"
     github_repo_url = "https://github.com/BrodaOJ56/HNG_INTERNSHIP_TASK"
 
     # Check for required fields
